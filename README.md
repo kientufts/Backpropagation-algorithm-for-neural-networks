@@ -1,6 +1,6 @@
 # Backpropagation-algorithm-for-neural-networks
 
-# Data
+## Data
 In this assignment we use two datasets which you can find on the course web page. The first captures the
 8-3-8 network example data from [M] which was shown in lecture. The second is a digit recognition dataset1
 For this assignment we have already split the data into train and test portions. The files are in arff format
