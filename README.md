@@ -7,4 +7,4 @@ For this project we have already split the data into train and test portions.
 
 ## References
 
-[1] This site was built using [GitHub Pages](https://pages.github.com/).
+[1]  [Machine Learning](http://www.cs.cmu.edu/afs/cs.cmu.edu/user/mitchell/ftp/mlbook.html), Tom M. Mitchell, McGraw-Hill, 1997.
