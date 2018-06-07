@@ -12,7 +12,7 @@ During training we use the binary labels as the required outputs of the correspo
 
 In addition for reporting we record the number of mistakes during each training iteration and evaluate the network on the test set after each iteration so that the overall code has this structure as in the below pseudocode. The weights should be initialized with independent random numbers uniformly sampled in the range [−0.1, 0.1]. Please make sure to seed the random number generator so that your results are reproducible. The learning rate should be set to η = 0.1
 
-'''
+```
 learn(w,d,traindata,testdata)
 Construct network with w,d and Initialize weights
 Repeat Iter times
@@ -25,7 +25,7 @@ Calculate scores of output units and evaluate prediction (correct/incorrect)
 End For
 Calculate test set error rate
 End Repeat
-'''
+```
 
 ## References
 
