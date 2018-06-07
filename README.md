@@ -18,12 +18,12 @@ Construct network with w,d and Initialize weights
 Repeat Iter times
   For each example in traindata
     Update weights using backpropagation formulas
-End For
-Calculate the train error rate (number of mistakes during training / number of examples)
-For each example in testdata
-Calculate scores of output units and evaluate prediction (correct/incorrect)
-End For
-Calculate test set error rate
+  End For
+  Calculate the train error rate (number of mistakes during training / number of examples)
+  For each example in testdata
+    Calculate scores of output units and evaluate prediction (correct/incorrect)
+  End For
+  Calculate test set error rate
 End Repeat
 ```
 
