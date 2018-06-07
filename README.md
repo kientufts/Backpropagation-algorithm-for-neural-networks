@@ -8,9 +8,7 @@ We have two datasets. The [first](https://github.com/kientufts/Backpropagation-a
 
 In this prokect we apply a neural network to classification problems with more than two labels. To implement this we use multiple output units with “one hot” coding. For example, for the digit dataset, since there are 10 possible labels we will have 10 output units. The encoding on label=2 is given by assigning 0100000000 to the corresponding output units. Our code should work on any arff dataset with numerical features. Therefore it should read the dataset to figure out the number of labels and hence the corresponding number of output units to be used.
 
-During training we use the binary labels as the required outputs of the corresponding units. During testing
-each output unit calculates a score for the example. This is given by the value xi
-in the forward pass of the
+During training we use the binary labels as the required outputs of the corresponding units. During testing each output unit calculates a score for the example. This is given by the value x_i in the forward pass of the
 backpropagation algorithm in the slides. We then predict the label which has the highest score.
 We will work with networks with d (depth) hidden layers each of width w. As in the slides there is an edge
 (and weight) between nodes in consecutive layers. The first hidden layer is connected to all inputs (features
