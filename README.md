@@ -4,6 +4,8 @@
 
 We have two datasets. The [first](https://github.com/kientufts/Backpropagation-algorithm-for-neural-networks/blob/master/838.arff) captures the 8-3-8 network example data from [1]. The [second](https://github.com/kientufts/Backpropagation-algorithm-for-neural-networks/blob/master/optdigits_train.arff) is a digit recognition dataset (more info [here](https://archive.ics.uci.edu/ml/machine-learning-databases/)). For this project we have already split the data into [train](https://github.com/kientufts/Backpropagation-algorithm-for-neural-networks/blob/master/optdigits_train.arff) and [test](https://github.com/kientufts/Backpropagation-algorithm-for-neural-networks/blob/master/optdigits_test.arff) portions.
 
+$ \sum_{\forall i}{x_i^{2}} $
+
 ## Network structure and the backpropagation algorithm
 
 In this prokect we apply a neural network to classification problems with more than two labels. To implement this we use multiple output units with “one hot” coding. For example, for the digit dataset, since there are 10 possible labels we will have 10 output units. The encoding on label=2 is given by assigning 0100000000 to the corresponding output units. Our code should work on any arff dataset with numerical features. Therefore it should read the dataset to figure out the number of labels and hence the corresponding number of output units to be used.
