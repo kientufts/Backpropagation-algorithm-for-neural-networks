@@ -16,8 +16,8 @@ In addition for reporting we record the number of mistakes during each training 
 learn(w,d,traindata,testdata)
 Construct network with w,d and Initialize weights
 Repeat Iter times
-For each example in traindata
-Update weights using backpropagation formulas
+  For each example in traindata
+    Update weights using backpropagation formulas
 End For
 Calculate the train error rate (number of mistakes during training / number of examples)
 For each example in testdata
