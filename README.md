@@ -27,6 +27,9 @@ Repeat Iter times
 End Repeat
 ```
 
+## Implementation
+We implement this project in a modular manner and provide an interface so that we can evaluate it with the arguments w, d and data files as in the pseudo code above.
+
 ## References
 
 [1]  [Machine Learning](http://www.cs.cmu.edu/afs/cs.cmu.edu/user/mitchell/ftp/mlbook.html), Tom M. Mitchell, McGraw-Hill, 1997.
