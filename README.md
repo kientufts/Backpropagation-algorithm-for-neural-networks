@@ -1,4 +1,4 @@
-# Backpropagation-algorithm-for-neural-networks
+# Backpropagation Algorithm for Neural Networks
 
 ## Data
 
